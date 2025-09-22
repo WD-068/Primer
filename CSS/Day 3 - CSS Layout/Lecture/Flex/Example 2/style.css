@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  background-color: orange;
+  /* gap: 50px; */
+}
+
+.child {
+  border: 2px solid black;
+  background-color: darkcyan;
+}
+
+/* .child1 {
+  flex-grow: 0;
+}
+
+.child2 {
+  flex-grow: 1;
+}
+
+.child3 {
+  flex-grow: 3;
+}
+
+.child4 {
+  flex-grow: 4;
+} */

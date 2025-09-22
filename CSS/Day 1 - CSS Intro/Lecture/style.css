@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Units */
+body {
+  font-size: 1rem;
+}
+
+div {
+  font-size: 12px;
+}
+
+/* Selectors */
+p {
+  color: blue;
+  font-size: 200%;
+  border: 2px solid;
+  background-color: aqua;
+  padding: 20px;
+  margin: 30px;
+  /* background-color: aqua; */
+  /* background-color: #46728866; */
+  /* background-color: rgb(255, 0, 0); */
+}
+
+div > p {
+  color: green;
+}
+
+div :first-child {
+  color: darkorchid;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+#first-div > p {
+  color: red;
+}
+
+.paragraphClass {
+  color: black;
+}

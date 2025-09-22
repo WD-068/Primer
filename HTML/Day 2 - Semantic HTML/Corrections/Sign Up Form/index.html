@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Join us today!</h1>
+    </header>
+    <main>
+      <p>Now is the best time to start your journey!</p>
+      <form>
+        <fieldset>
+          <legend><h2>Contact Form</h2></legend>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Max Mustermann"
+            required
+          />
+          <br />
+          <br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@test.com"
+            required
+          />
+          <br />
+          <br />
+          <label for="phone">Tel.</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="123-456-7890"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+          <br />
+          <br />
+          <label for="bootcamp">Select bootcamp:</label>
+          <select name="bootcamp" id="bootcamp" required>
+            <option value="">Please choose an option</option>
+            <option value="wd">Web Development</option>
+            <option value="ds">Data Science</option>
+            <option value="dpd">Digital Product Design</option>
+          </select>
+          <br />
+          <br />
+          <button type="submit">Sign Up</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
